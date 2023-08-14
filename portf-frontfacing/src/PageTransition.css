@@ -1,0 +1,21 @@
+.page-initial {
+    opacity: 0;
+    /* transform: translateY(-100%); */
+  }
+  
+  .page-enter,
+  .page-exit-active {
+    opacity: 0;
+    /* transform: translateY(-100%); */
+  }
+  
+  .page-enter-active,
+  .page-exit {
+    opacity: 1;
+    /* transform: translateY(0); */
+  }
+  
+  .page-enter-active,
+  .page-exit-active {
+    transition: opacity 3000ms, /*transform 1500ms*/;
+  }

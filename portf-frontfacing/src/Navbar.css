@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px; /* Fixed height */
+    background-color: #dddddd;
+    transition: top 0.5s;
+    align-items: center;
+    z-index: 100;
+    top: -70px; /* Hide it initially, needs tweaking */
+  }
+  
+  .navbar-visible {
+    top: 0; /* Bring it to the top */
+  }
+  
+  .navbar-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+  }
+  
+  .navbar-list li {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
+  .navbar-list a {
+    text-decoration: none;
+    color: rgb(34, 20, 20);
+  }
+
+  .navbar-list a:visited{
+    color: rgb(34, 20, 20);
+  }
+
+  .navbar-list a:focus{
+    outline: none;
+  }
