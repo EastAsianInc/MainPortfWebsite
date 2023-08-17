@@ -17,5 +17,5 @@
   
   .page-enter-active,
   .page-exit-active {
-    transition: opacity 3000ms, /*transform 1500ms*/;
+    transition: opacity 2000ms, /*transform 1500ms*/;
   }

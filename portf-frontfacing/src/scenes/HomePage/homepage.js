@@ -9,7 +9,6 @@ import{
 } from "@mui/material";
 import { ThemeProvider } from '@emotion/react';
 import { theme } from "../../theme";
-// import PageTransition from "../../components/PageTransition";
 import { usePageTransition } from "../../components/PageTransition"; //Use as hook
 
 const HomePage = () => {
